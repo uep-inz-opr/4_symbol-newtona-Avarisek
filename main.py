@@ -11,5 +11,6 @@ if y>x:
 else:
     liczba1=math.factorial(x)
     liczba2=math.factorial(y)
-    dzielenie= liczba1//(liczba2*(x-y))
+    liczba3=math.factorial(x-y)
+    dzielenie= liczba1/(liczba2*liczba3)
     print(dzielenie)
