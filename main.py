@@ -1,6 +1,5 @@
 import math
-x=input()
-y=input()
+x,y=input().split(" ")
 x=int(x)
 y=int(y)
 
